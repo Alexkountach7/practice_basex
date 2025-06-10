@@ -1,0 +1,13 @@
+Escribe las sentencias en XPATH para conseguir lo siguiente (ayúdate de BASEX):
+1.- Nombre del instituto
+2.- Web del Instituto
+3.- Nombre de los ciclos formativos sin etiquetas
+4.- Siglas por las que se conocen los ciclos formativos
+5.- Años en los que se decretaron los títulos
+6.- Toda la información de los ciclos formativos de grado medio.
+7.- Idem grado superior
+8.- Mostrar todos los nombres de los ciclos formativos anteriores a 2010, pero sin etiquetas
+9.- Mostrar todos los nombres de los ciclos formativos de 2008 a 2010 (pista: usar OR)
+10.- Mostrar todos los ciclos formativos de la família de Imagen Personal
+11.- Mostrar todos los ciclos de grado básico con etiquetas
+12.- Mostrar los códigos de los ciclos de grado básico
