@@ -1,0 +1,29 @@
+Nombres de los ciclos con decretos anteriores a 2010
+//ciclo[decretotitulo/@año < 2010]/nombre/text()
+
+todos los ciclos de la familia sanidad 
+//educacion/ciclo[familia = "Sanidad"]/nombre/text()
+
+Años de los decretos de ciclos con duración igual a 2000 horas
+
+//educacion/ciclo[duracion = 2000]/decretotitulo
+
+Ciclos cuyo nombre contiene la palabra "Aplicaciones"
+
+//educacion/ciclo[contains (nombre, "Aplicaciones")]/nombre
+
+
+Cantidad total de ciclos almacenados
+
+count(//ciclo)
+
+Obtener solo los ciclos cuya duración sea inferior a 1800 horas
+//ciclo[duracion < 1800]/nombre
+
+Ciclos que tengan número de decreto par
+
+//educacion/ciclo[number(decretotitulo/@numero) mod 2 = 0]/nombre
+
+ Ciclos con decretos emitidos entre 2005 y 2010 (inclusive)
+
+//educacion/ciclo[decretotitulo/@año >= 2005 and decretotitulo/@año <= 2010]/nombre
