@@ -1,0 +1,86 @@
+1.- Nombre del instituto
+2.- Web del Instituto
+3.- Nombre de los ciclos formativos sin etiquetas
+4.- Siglas por las que se conocen los ciclos formativos
+5.- Años en los que se decretaron los títulos
+6.- Toda la información de los ciclos formativos de grado medio.
+7.- Idem grado superior
+8.- Mostrar todos los nombres de los ciclos formativos anteriores a 2010, pero sin etiquetas
+9.- Mostrar todos los nombres de los ciclos formativos de 2008 a 2010 (pista: usar OR)
+10.- Mostrar todos los ciclos formativos de la família de Imagen Personal
+11.- Mostrar todos los ciclos de grado básico con etiquetas
+12.- Mostrar los códigos de los ciclos de grado básico
+
+CONSULTAS XQUERY EN BASEX:
+1. Nombre del instituto
+xquery
+Copiar
+Editar
+/ies/@nombre
+2. Web del instituto
+xquery
+Copiar
+Editar
+/ies/@web
+3. Nombre de los ciclos formativos (sin etiquetas)
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo/nombre/text()
+4. Siglas por las que se conocen los ciclos formativos (atributo id)
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo/@id
+5. Años en los que se decretaron los títulos
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo/decretoTitulo/@año
+Nota: Si en tu XML usas ano en vez de año, cambia @año por @ano.
+
+6. Toda la información de los ciclos formativos de grado medio
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[grado = "Medio"]
+7. Toda la información de los ciclos formativos de grado superior
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[grado = "Superior"]
+8. Nombres de ciclos formativos anteriores a 2010 (sin etiquetas)
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[decretoTitulo/@año < 2010]/nombre/text()
+9. Nombres de ciclos formativos entre 2008 y 2010 (inclusive)
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[
+  decretoTitulo/@año = 2008 or 
+  decretoTitulo/@año = 2009 or 
+  decretoTitulo/@año = 2010
+]/nombre/text()
+O usando matches() si no es numérico:
+
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[decretoTitulo/@año = ('2008', '2009', '2010')]/nombre/text()
+10. Todos los ciclos formativos de la familia "Imagen Personal"
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[familia = "Imagen Personal"]
+11. Todos los ciclos de grado básico (con etiquetas)
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[grado = "Basico"]
+12. Códigos (id) de los ciclos de grado básico
+xquery
+Copiar
+Editar
+/ies/ciclos/ciclo[grado = "Basico"]/@id
