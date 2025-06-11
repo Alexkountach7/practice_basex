@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuegos>
+  <videojuego>
+    <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+    <anio>2017</anio>
+    <nota>4.9</nota>
+    <opiniones>4.8</opiniones>
+    <precio>59.99</precio>
+    <genero>Aventura</genero>
+  </videojuego>
+  <videojuego>
+    <titulo>Super Mario Odyssey</titulo>
+    <anio>2017</anio>
+    <nota>4.7</nota>
+    <opiniones>4.5</opiniones>
+    <precio>49.99</precio>
+    <genero>Plataformas</genero>
+  </videojuego>
+  <videojuego>
+    <titulo>Tetris Effect</titulo>
+    <anio>2018</anio>
+    <nota>4.3</nota>
+    <opiniones>4.1</opiniones>
+    <precio>29.99</precio>
+    <genero>Puzzle</genero>
+  </videojuego>
+  <videojuego>
+    <titulo>Minecraft</titulo>
+    <anio>2011</anio>
+    <nota>3.5</nota>
+    <opiniones>3.9</opiniones>
+    <precio>26.95</precio>
+    <genero>Sandbox</genero>
+  </videojuego>
+  <videojuego>
+    <titulo>Among Us</titulo>
+    <anio>2018</anio>
+    <nota>3.0</nota>
+    <opiniones>2.9</opiniones>
+    <precio>5.00</precio>
+    <genero>Party</genero>
+  </videojuego>
+</videojuegos>

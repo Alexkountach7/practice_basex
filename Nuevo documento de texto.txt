@@ -1,0 +1,9 @@
+Crea una vista que muestre todos los videojuegos. 
+Crea vista que muestre los títulos de todos los videojuegos. 
+Crea una vista que tenga los videojuegos que tengan la letra T. 
+Vista con todos los títulos creados a partir del año 2000
+Vista con los títulos de los videojuegos que tengan más de 4 en su nota. 
+Vista con los títulos que tengan más de 3 sobre 5 de opiniones. 
+Vista con títulos con 3 o menos puntos. 
+Vista ordenada por precio, de mayor a menor. 
+Vista de una categoría/género que escojas. 
