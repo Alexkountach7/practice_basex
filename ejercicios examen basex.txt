@@ -1,0 +1,13 @@
+Crea vista que muestre todos los nombres de productos que sean nuevos (1 punto)
+
+Vista con los títulos de los productos que tengan menos de 4 en su nota global, pero sin etiquetas. (1 punto)
+
+Crea vista que muestre todos los nombres de productos que sean usados, mostrando disponibilidad en sus diferentes tiendas, con su precio y precio en oferta (1 punto)
+
+Crea una vista que contenga el nombre de los productos y su marca, ordenados por precio de mayor a menor. (1 puntos)
+
+Vista con los títulos de los productos que tengan más de 4 en su nota, mostrando también la url de la imagen. (1 puntos)
+
+Vista de todas las opiniones de cada producto, con el nombre del producto al que se refiere (1 punto)
+
+Vista que contenga los productos nuevos y sus categorías listadas. (1 punto)

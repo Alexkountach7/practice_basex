@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto id="p1" estado="nuevo">
+        <nombre>Smartphone X10</nombre>
+        <marca>TechBrand</marca>
+        <categoria>Electrónica</categoria>
+        <precio>599.99</precio>
+        <precioOferta>499.99</precioOferta>
+        <notaGlobal>4.5</notaGlobal>
+        <imagenURL>http://example.com/img/x10.jpg</imagenURL>
+        <disponibilidad>
+            <tienda nombre="Tienda Centro" stock="10"/>
+            <tienda nombre="Tienda Norte" stock="5"/>
+        </disponibilidad>
+        <opiniones>
+            <opinion>Gran producto, muy rápido.</opinion>
+            <opinion>Buena batería.</opinion>
+        </opiniones>
+    </producto>
+
+    <producto id="p2" estado="usado">
+        <nombre>Portátil UltraBook Z</nombre>
+        <marca>CompTech</marca>
+        <categoria>Informática</categoria>
+        <precio>899.00</precio>
+        <precioOferta>749.00</precioOferta>
+        <notaGlobal>3.8</notaGlobal>
+        <imagenURL>http://example.com/img/ultrabookz.jpg</imagenURL>
+        <disponibilidad>
+            <tienda nombre="Tienda Este" stock="2"/>
+            <tienda nombre="Tienda Sur" stock="0"/>
+        </disponibilidad>
+        <opiniones>
+            <opinion>Algo lento pero aceptable.</opinion>
+        </opiniones>
+    </producto>
+
+    <producto id="p3" estado="nuevo">
+        <nombre>Auriculares BassBoost</nombre>
+        <marca>SoundX</marca>
+        <categoria>Audio</categoria>
+        <precio>79.99</precio>
+        <precioOferta>59.99</precioOferta>
+        <notaGlobal>3.2</notaGlobal>
+        <imagenURL>http://example.com/img/bassboost.jpg</imagenURL>
+        <disponibilidad>
+            <tienda nombre="Tienda Centro" stock="20"/>
+        </disponibilidad>
+        <opiniones>
+            <opinion>Mucho bajo, pero incómodos.</opinion>
+        </opiniones>
+    </producto>
+
+    <producto id="p4" estado="usado">
+        <nombre>Tablet XPad Mini</nombre>
+        <marca>TabWare</marca>
+        <categoria>Electrónica</categoria>
+        <precio>199.00</precio>
+        <precioOferta>149.00</precioOferta>
+        <notaGlobal>4.7</notaGlobal>
+        <imagenURL>http://example.com/img/xpadmini.jpg</imagenURL>
+        <disponibilidad>
+            <tienda nombre="Tienda Norte" stock="3"/>
+        </disponibilidad>
+        <opiniones>
+            <opinion>Pantalla muy buena.</opinion>
+        </opiniones>
+    </producto>
+</catalogo>
